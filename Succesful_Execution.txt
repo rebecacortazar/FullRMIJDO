@@ -1,0 +1,269 @@
+C:\TodoDatosRebeca\a_spq_13-14\1.Full_RMI_JDO_Example_Root>mvn test
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Collector 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://repo.maven.apache.org/maven2/org/datanucleus/datanucleus-cor
+e/maven-metadata.xml
+Downloaded: http://repo.maven.apache.org/maven2/org/datanucleus/datanucleus-core
+/maven-metadata.xml (4 KB at 4.0 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/datanucleus/datanucleus-api
+-jdo/maven-metadata.xml
+Downloaded: http://repo.maven.apache.org/maven2/org/datanucleus/datanucleus-api-
+jdo/maven-metadata.xml (2 KB at 12.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/datanucleus/datanucleus-rdb
+ms/maven-metadata.xml
+Downloaded: http://repo.maven.apache.org/maven2/org/datanucleus/datanucleus-rdbm
+s/maven-metadata.xml (4 KB at 26.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/log4j/log4j/maven-metadata.xml
+Downloaded: http://repo.maven.apache.org/maven2/log4j/log4j/maven-metadata.xml (
+352 B at 3.2 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/javax/jdo/jdo-api/maven-metadat
+a.xml
+Downloaded: http://repo.maven.apache.org/maven2/javax/jdo/jdo-api/maven-metadata
+.xml (358 B at 3.5 KB/sec)
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Collector
+---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Collector ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-datanucleus-plugin:3.2.0-m1:enhance (default) @ Collector ---
+Downloading: http://www.datanucleus.org/downloads/maven2/org/datanucleus/datanuc
+leus-core/maven-metadata.xml
+Downloading: http://www.datanucleus.org/downloads/maven2/javax/jdo/jdo-api/maven
+-metadata.xml
+Downloading: http://www.datanucleus.org/downloads/maven2/org/ow2/asm/asm/maven-m
+etadata.xml
+[INFO] DataNucleus Enhancer (versi´+¢n 4.0.0.m1) para el API "JDO" utilisando el
+ JRE "1.7"
+DataNucleus Enhancer : Classpath
+>>  C:\Users\cortazar\.m2\repository\org\datanucleus\maven-datanucleus-plugin\3.
+2.0-m1\maven-datanucleus-plugin-3.2.0-m1.jar
+>>  C:\Users\cortazar\.m2\repository\org\datanucleus\datanucleus-core\4.0.0-m1\d
+atanucleus-core-4.0.0-m1.jar
+>>  C:\Users\cortazar\.m2\repository\javax\jdo\jdo-api\3.1-rc1\jdo-api-3.1-rc1.j
+ar
+>>  C:\Users\cortazar\.m2\repository\javax\transaction\transaction-api\1.1\trans
+action-api-1.1.jar
+>>  C:\Users\cortazar\.m2\repository\org\apache\geronimo\specs\geronimo-jpa_2.0_
+spec\1.0\geronimo-jpa_2.0_spec-1.0.jar
+>>  C:\Users\cortazar\.m2\repository\org\ow2\asm\asm\5.0_BETA\asm-5.0_BETA.jar
+>>  C:\Users\cortazar\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.8\plex
+us-utils-3.0.8.jar
+>>  C:\Users\cortazar\.m2\repository\org\codehaus\plexus\plexus-component-annota
+tions\1.5.5\plexus-component-annotations-1.5.5.jar
+>>  C:\Users\cortazar\.m2\repository\org\sonatype\sisu\sisu-inject-bean\2.3.0\si
+su-inject-bean-2.3.0.jar
+>>  C:\Users\cortazar\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-gui
+ce-3.1.0-no_aop.jar
+>>  C:\Users\cortazar\.m2\repository\org\sonatype\sisu\sisu-guava\0.9.9\sisu-gua
+va-0.9.9.jar
+>>  C:\Users\cortazar\.m2\repository\org\apache\xbean\xbean-reflect\3.4\xbean-re
+flect-3.4.jar
+>>  C:\Users\cortazar\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar
+>>  C:\Users\cortazar\.m2\repository\commons-logging\commons-logging-api\1.1\com
+mons-logging-api-1.1.jar
+>>  C:\Users\cortazar\.m2\repository\com\google\collections\google-collections\1
+.0\google-collections-1.0.jar
+>>  C:\Users\cortazar\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar
+>>  C:\TodoDatosRebeca\a_spq_13-14\1.Full_RMI_JDO_Example_Root\target\classes
+>>  C:\Program Files\Java\jdk1.7.0_51\jre\..\lib\tools.jar
+>>  C:\Users\cortazar\.m2\repository\org\datanucleus\datanucleus-api-jdo\4.0.0-m
+1\datanucleus-api-jdo-4.0.0-m1.jar
+>>  C:\Users\cortazar\.m2\repository\org\datanucleus\datanucleus-rdbms\4.0.0-m1\
+datanucleus-rdbms-4.0.0-m1.jar
+>>  C:\Users\cortazar\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+>>  C:\Users\cortazar\.m2\repository\mysql\mysql-connector-java\5.1.25\mysql-con
+nector-java-5.1.25.jar
+ENHANCED (PersistenceCapable) : es.deusto.server.jdo.Message
+ENHANCED (PersistenceCapable) : es.deusto.server.jdo.User
+DataNucleus Enhancer ha terminado con exito para 2 clases. Tiempos : input=400 m
+s, enhance=73 ms, total=473 ms. Compruebe el LOG para los detalles
+
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Co
+llector ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\TodoDatosRebeca\a_spq_13-14\1.Full
+_RMI_JDO_Example_Root\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Collect
+or ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to C:\TodoDatosRebeca\a_spq_13-14\1.Full_RMI_JDO
+_Example_Root\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ Collector ---
+[INFO] Surefire report directory: C:\TodoDatosRebeca\a_spq_13-14\1.Full_RMI_JDO_
+Example_Root\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running es.deusto.server.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec - in e
+s.deusto.server.AppTest
+Running es.deusto.server.RMITest
+RMI registry ready.
+This is a test to showcase a server remoteness test; JVM properties by program
+Codebase at: /C:/TodoDatosRebeca/a_spq_13-14/1.Full_RMI_JDO_Example_Root/target/
+test-classes/
+ * TestServer name: //127.0.0.1:1099/Collector
+1. Server started and linked to RMIRegistry
+es.deusto.server.RMITest.testRMIApp
+Checking whether the user already exits or not: 'dipina'
+user: User: login --> dipina, password -->  dipina, messages --> [Message: messa
+ge --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET 2014 - Message: m
+essage --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET 2014 - Messag
+e: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:42 CET 2014 - Me
+ssage: message --> This is a test!, timestamp -->  Tue Mar 11 19:48:48 CET 2014
+- Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET 2
+014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 C
+ET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 19:48:
+22 CET 2014 - ]
+setting password user: User: login --> dipina, password -->  dipina, messages --
+> [Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET
+2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41
+CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19
+:42 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 1
+9:48:48 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar
+11 20:19:41 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue
+Mar 11 20:19:41 CET 2014 - Message: message --> This is a test!, timestamp -->
+Tue Mar 11 19:48:22 CET 2014 - ]
+password set user: User: login --> dipina, password -->  dipina, messages --> [M
+essage: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET 2014
+ - Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET
+2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:42
+CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 19:48
+:48 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 2
+0:19:41 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar
+11 20:19:41 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue
+Mar 11 19:48:22 CET 2014 - ]
+creating query ...
+User retrieved: User: login --> dipina, password -->  dipina, messages --> [Mess
+age: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET 2014 -
+Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET 201
+4 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:42 CET
+ 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 19:48:48
+ CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:1
+9:41 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11
+20:19:41 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar
+ 11 19:48:22 CET 2014 - ]
+ * Client number: 1
+* Message coming from the server: 'This is a test!'
+Checking whether the user already exits or not: 'dipina'
+user: User: login --> dipina, password -->  dipina, messages --> [Message: messa
+ge --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET 2014 - Message: m
+essage --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET 2014 - Messag
+e: message --> This is a test!, timestamp -->  Wed Mar 12 19:15:30 CET 2014 - Me
+ssage: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:42 CET 2014
+- Message: message --> This is a test!, timestamp -->  Tue Mar 11 19:48:48 CET 2
+014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 C
+ET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:
+41 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 19
+:48:22 CET 2014 - ]
+setting password user: User: login --> dipina, password -->  dipina, messages --
+> [Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET
+2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41
+CET 2014 - Message: message --> This is a test!, timestamp -->  Wed Mar 12 19:15
+:30 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 2
+0:19:42 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar
+11 19:48:48 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue
+Mar 11 20:19:41 CET 2014 - Message: message --> This is a test!, timestamp -->
+Tue Mar 11 20:19:41 CET 2014 - Message: message --> This is a test!, timestamp -
+->  Tue Mar 11 19:48:22 CET 2014 - ]
+password set user: User: login --> dipina, password -->  dipina, messages --> [M
+essage: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET 2014
+ - Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET
+2014 - Message: message --> This is a test!, timestamp -->  Wed Mar 12 19:15:30
+CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19
+:42 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 1
+9:48:48 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar
+11 20:19:41 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue
+Mar 11 20:19:41 CET 2014 - Message: message --> This is a test!, timestamp -->
+Tue Mar 11 19:48:22 CET 2014 - ]
+creating query ...
+User retrieved: User: login --> dipina, password -->  dipina, messages --> [Mess
+age: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET 2014 -
+Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET 201
+4 - Message: message --> This is a test!, timestamp -->  Wed Mar 12 19:15:30 CET
+ 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:42
+ CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 19:4
+8:48 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11
+20:19:41 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar
+ 11 20:19:41 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue
+ Mar 11 19:48:22 CET 2014 - ]
+ * Client number: 2
+* Message coming from the server: 'This is a test!'
+Checking whether the user already exits or not: 'dipina'
+user: User: login --> dipina, password -->  dipina, messages --> [Message: messa
+ge --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET 2014 - Message: m
+essage --> This is a test!, timestamp -->  Wed Mar 12 19:15:30 CET 2014 - Messag
+e: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET 2014 - Me
+ssage: message --> This is a test!, timestamp -->  Wed Mar 12 19:15:30 CET 2014
+- Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:42 CET 2
+014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 19:48:48 C
+ET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:
+41 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 20
+:19:41 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 1
+1 19:48:22 CET 2014 - ]
+setting password user: User: login --> dipina, password -->  dipina, messages --
+> [Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET
+2014 - Message: message --> This is a test!, timestamp -->  Wed Mar 12 19:15:30
+CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19
+:41 CET 2014 - Message: message --> This is a test!, timestamp -->  Wed Mar 12 1
+9:15:30 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar
+11 20:19:42 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue
+Mar 11 19:48:48 CET 2014 - Message: message --> This is a test!, timestamp -->
+Tue Mar 11 20:19:41 CET 2014 - Message: message --> This is a test!, timestamp -
+->  Tue Mar 11 20:19:41 CET 2014 - Message: message --> This is a test!, timesta
+mp -->  Tue Mar 11 19:48:22 CET 2014 - ]
+password set user: User: login --> dipina, password -->  dipina, messages --> [M
+essage: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET 2014
+ - Message: message --> This is a test!, timestamp -->  Wed Mar 12 19:15:30 CET
+2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41
+CET 2014 - Message: message --> This is a test!, timestamp -->  Wed Mar 12 19:15
+:30 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 2
+0:19:42 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar
+11 19:48:48 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue
+Mar 11 20:19:41 CET 2014 - Message: message --> This is a test!, timestamp -->
+Tue Mar 11 20:19:41 CET 2014 - Message: message --> This is a test!, timestamp -
+->  Tue Mar 11 19:48:22 CET 2014 - ]
+creating query ...
+User retrieved: User: login --> dipina, password -->  dipina, messages --> [Mess
+age: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET 2014 -
+Message: message --> This is a test!, timestamp -->  Wed Mar 12 19:15:30 CET 201
+4 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:19:41 CET
+ 2014 - Message: message --> This is a test!, timestamp -->  Wed Mar 12 19:15:30
+ CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11 20:1
+9:42 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar 11
+19:48:48 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue Mar
+ 11 20:19:41 CET 2014 - Message: message --> This is a test!, timestamp -->  Tue
+ Mar 11 20:19:41 CET 2014 - Message: message --> This is a test!, timestamp -->
+ Tue Mar 11 19:48:22 CET 2014 - ]
+ * Client number: 3
+* Message coming from the server: 'This is a test!'
+samples: 3
+max:     1651
+average: 640.3333333333334
+median:  126
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.396 sec - in e
+s.deusto.server.RMITest
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 27.627s
+[INFO] Finished at: Wed Mar 12 19:15:31 CET 2014
+[INFO] Final Memory: 16M/144M
+[INFO] ------------------------------------------------------------------------
+C:\TodoDatosRebeca\a_spq_13-14\1.Full_RMI_JDO_Example_Root>
