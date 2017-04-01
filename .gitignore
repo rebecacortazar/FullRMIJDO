@@ -1,3 +1,6 @@
 /target/
 /.classpath
 /.project
+/datanucleus.log
+/logging.log
+/~$bertura_TodosCasques_solución.docx
