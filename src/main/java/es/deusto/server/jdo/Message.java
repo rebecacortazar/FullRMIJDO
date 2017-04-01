@@ -3,7 +3,7 @@ package es.deusto.server.jdo;
 import javax.jdo.annotations.PersistenceCapable;
 import java.util.Date;
 
-@PersistenceCapable
+@PersistenceCapable (detachable = "true")
 public class Message {
 	User user=null;
 	String text=null;

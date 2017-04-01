@@ -27,8 +27,8 @@ import org.slf4j.LoggerFactory;
  * Unit test for RMI and JDO - includes JUNIT, Cobertura and Contiperf
  */
 @SuppressWarnings("unused")
-@PerfTest(invocations = 100, threads=50)
-@Required(max = 22000, average = 2000)
+@PerfTest(invocations = 50, threads=10)
+@Required(max = 22000, average = 5000)
 //
 //@PerfTest(duration = 20000)
 //@Required(max = 3335, average = 660)
