@@ -1,11 +1,11 @@
-CREATE DATABASE messagesDB;
+/* DELETE 'fullmessagesdb' database*/
+DROP SCHEMA IF EXISTS fullmessagesdb;
+/* DELETE USER 'spq' AT LOCAL SERVER*/
+DROP USER IF EXISTS 'spq'@'%';
 
-GRANT ALTER, SELECT,INSERT,UPDATE,DELETE,CREATE,DROP, INDEX
-           ON messagesDB.*
-           TO sd@'%'
-           IDENTIFIED BY 'sd';
+/* CREATE 'fullmessagesdb' DATABASE */
+CREATE SCHEMA fullmessagesdb;
+/* CREATE THE USER 'spq' AT LOCAL SERVER WITH PASSWORD 'spq' */
+CREATE USER IF NOT EXISTS 'spq'@'%' IDENTIFIED BY 'spq';
 
-GRANT ALTER, SELECT,INSERT,UPDATE,DELETE,CREATE,DROP, INDEX
-           ON messagesDB.*
-           TO sd@localhost
-           IDENTIFIED BY 'sd';
+GRANT ALL ON fullmessagesdb.* TO 'spq'@'%';
